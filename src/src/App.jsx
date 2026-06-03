@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import SupplierProfile from './components/SupplierProfile.jsx'
 import { scoreSuppliers } from './routing.js'
+import { sikaLogo } from './images.js'
 
 // ── Question definitions ──────────────────────────────────────────────────────
 
@@ -141,7 +142,7 @@ export default function App() {
         <div className="header-inner">
           <div className="header-logo-badge">
             <img
-              src="/images/sika_logo_trimmed.png"
+              src={sikaLogo}
               alt="Sika"
               className="sika-logo-img"
             />
@@ -318,7 +319,7 @@ export default function App() {
             Sika Activation Partner Finder — Internal use only. Sika EMEA Channel Marketing.
           </span>
           <span className="footer-badge">
-            <img src="/images/sika_logo_trimmed.png" alt="Sika" style={{ height: '28px', width: 'auto' }} />
+            <img src={sikaLogo} alt="Sika" style={{ height: '28px', width: 'auto' }} />
             MVP v1.0
           </span>
         </div>

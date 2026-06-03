@@ -20,7 +20,7 @@
       "Multiprinting needs",
       "Standardized printed assets"
     ],
-    "supplier_image": "/images/printoclock.jpg",
+    "supplier_image": "printoclock",
     "visibility_status": "Show in MVP",
     "partner_status": "Active",
     "european_service_capability": true,
@@ -78,7 +78,7 @@
       "Design + engineering + production",
       "Prototypes, small batches and scalable display rollouts"
     ],
-    "supplier_image": "/images/propulzija.jpg",
+    "supplier_image": "propulzija",
     "visibility_status": "Show in MVP",
     "partner_status": "Active",
     "european_service_capability": true,
@@ -132,7 +132,7 @@
       "DIY store visibility",
       "Scalable retail rollouts"
     ],
-    "supplier_image": "/images/hmy_group.jpg",
+    "supplier_image": "hmy_group",
     "visibility_status": "Show in MVP",
     "partner_status": "Active",
     "european_service_capability": true,
@@ -183,7 +183,7 @@
       "Campaign display materials",
       "Retail activation materials"
     ],
-    "supplier_image": "/images/holbox.jpg",
+    "supplier_image": "holbox",
     "visibility_status": "Show in MVP",
     "partner_status": "Active",
     "european_service_capability": true,
@@ -233,7 +233,7 @@
       "Flexible display solutions",
       "Promotional visibility with lighting"
     ],
-    "supplier_image": "/images/mobile_lightbox.jpg",
+    "supplier_image": "mobile_lightbox",
     "visibility_status": "Show in MVP",
     "partner_status": "Active",
     "european_service_capability": true,
@@ -282,7 +282,7 @@
       "Concept-led retail activation",
       "Projects where Sika wants to try something different"
     ],
-    "supplier_image": "/images/design4retail.jpg",
+    "supplier_image": "design4retail",
     "visibility_status": "Show in MVP",
     "partner_status": "Active",
     "european_service_capability": true,

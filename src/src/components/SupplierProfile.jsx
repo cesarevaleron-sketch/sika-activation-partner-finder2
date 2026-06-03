@@ -1,4 +1,5 @@
 import React from 'react'
+import { supplierImages } from '../images.js'
 
 const FORMS_URL =
   'https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=iGqK65PZUE608K2j3554-FVMlwCuoo1Dg2OoEg1v64ZUMUhKUzZBU0RZRDFHRk00TjI4M1lBMzRUTC4u'
@@ -7,6 +8,7 @@ export default function SupplierProfile({ supplier, isAlternative = false }) {
   if (!supplier) return null
 
   const hasEmail = supplier.contact_email && supplier.contact_email !== 'null'
+  const imageUrl = supplierImages[supplier.supplier_image] || null
 
   return (
     <div className={`supplier-card${isAlternative ? ' is-alternative' : ''}`}>
@@ -16,8 +18,8 @@ export default function SupplierProfile({ supplier, isAlternative = false }) {
 
         {/* Full-width image banner */}
         <div className="supplier-image-block">
-          {supplier.supplier_image ? (
-            <img src={supplier.supplier_image} alt={`${supplier.supplier_name} project reference`} />
+          {imageUrl ? (
+            <img src={imageUrl} alt={`${supplier.supplier_name} project reference`} />
           ) : (
             <>
               <div className="supplier-image-icon">🏢</div>
